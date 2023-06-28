@@ -1,0 +1,69 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px auto;
+  padding: 20px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  width: 80%;
+  height: 200px;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.domain-line {
+  margin-bottom: 4px; /* Adjust the spacing as desired */
+}
+
+.author-timestamp-line {
+  display: flex;
+  align-items: center;
+}
+
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.domain {
+  color: black; /* replace with any color you want */
+  font-size: 1.6em; /* increase the size as per your requirement */
+  text-decoration: none;
+}
+
+.author {
+  color: gray; /* adjust the color as needed */
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.timestamp {
+  margin-left: 8px; /* adjust the spacing as needed */
+  color: gray; /* adjust the color as needed */
+}
+
+.link {
+  color: gray;
+  cursor: pointer;
+}
