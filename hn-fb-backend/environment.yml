@@ -1,0 +1,11 @@
+name: hn-fb-backend
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - flask
+    - flask_sqlalchemy
+    - flask_restful
+    - flask_cors
